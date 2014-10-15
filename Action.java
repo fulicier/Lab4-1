@@ -15,10 +15,6 @@ public class Action extends ActionSupport {
 		//System.out.print("1");
 		return SUCCESS;
 	}
-	public String Delete(){
-		Operate.Delete(isbn);
-		return SUCCESS;
-	}
 	public String Detail() throws Exception {
 		b = Operate.Show(isbn);
 		return INPUT;

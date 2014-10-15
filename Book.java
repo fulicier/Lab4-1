@@ -46,12 +46,6 @@ public class Book {
 	public void SetAuthorID(int authorid){
 		this.authorid = authorid;
 	}
-	public void SetID(int id){
-		this.id = id;
-	}
-	public void SetAge(int age){
-		this.age = age;
-	}
 	public void SetISBN(long isbn){
 		this.isbn = isbn;
 	}
